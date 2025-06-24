@@ -14,5 +14,5 @@ pip install fastapi uvicorn
 
 uvicorn main:app --reload
 
-uvicorn main:app --reload --host 0.0.0.0 --port 8001
+uvicorn main:app -g-reload --host 0.0.0.0 --port 8001
 
